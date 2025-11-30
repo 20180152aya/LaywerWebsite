@@ -5,8 +5,6 @@ import "../../App.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebook,
-  faInstagram,
-  faTwitter,
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
 function Header() {
@@ -14,9 +12,9 @@ function Header() {
     <>
       <header className="header flexSB">
         <div className="info flexSB">
-          <p> العنوان: 6 شارع حسن محمد على</p>
+          <p> العنوان:عمارة 42/1 الشطر الثامن زهراء المعادي القاهره</p>
           <p>|</p>
-          <p>الايميل: ayahamedzaki@gmail.com</p>
+          <p>الايميل: gamalbasma14@gmail.com</p>
           <p>
             <a
               href="https://wa.me/201273805398"
@@ -24,20 +22,26 @@ function Header() {
               className="whatsapp-link"
             >
               <FontAwesomeIcon icon={faWhatsapp} className="font" />
-              <span className="phone">01273805398</span>
+              <span className="phone">01142677273</span>
+            </a>
+          </p>
+          <p>
+            <a
+              href="https://wa.me/201273805398"
+              target="_blank"
+              className="whatsapp-link"
+            >
+              <FontAwesomeIcon icon={faWhatsapp} className="font" />
+              <span className="phone">01014547030</span>
             </a>
           </p>
         </div>
         <div className="icons">
-          <a href="https://facebook.com" target="_blank">
+          <a href="https://www.facebook.com/share/16WXVdaymz/" target="_blank">
             <FontAwesomeIcon icon={faFacebook} className="font" />
           </a>
-          <a href="https://facebook.com" target="_blank">
-            <FontAwesomeIcon icon={faTwitter} className="font" />
-          </a>
-          <a href="https://facebook.com" target="_blank">
-            <FontAwesomeIcon icon={faInstagram} className="font" />
-          </a>
+
+
         </div>
       </header>
     </>

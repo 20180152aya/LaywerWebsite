@@ -1,0 +1,50 @@
+.contact-title {
+  color: #2e0000;
+  font-weight: bold;
+}
+
+.contact-btn {
+  background-color: #2e0000;
+  border: none;
+  transition: 0.3s;
+}
+
+.contact-btn:hover {
+  opacity: 0.8;
+}
+
+.contact-info h4 {
+  color: #2e0000;
+  font-weight: bold;
+}
+
+.contact-info p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.contact-page iframe {
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+.toast-msg {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50px);
+  background-color: #2e0000;
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  min-width: 300px;
+  text-align: center;
+  z-index: 1000;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.toast-msg.show {
+  transform: translateX(-50%) translateY(0);
+  opacity: 1;
+}

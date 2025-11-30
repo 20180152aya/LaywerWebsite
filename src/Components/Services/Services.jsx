@@ -17,7 +17,7 @@ import companyConsult from "../../assets/العقارات.jpeg";
 import letters from "../../assets/كتابة.jpeg";
 import Header from "../Header/Header";
 import Navs from "../Header/Navbar";
-import Hero from "../Home/Hero";
+import MiniHero from "../MinHero/MiniHero";
 import Footer from "../Footer/Footer";
 import { useNavigate } from "react-router-dom";
 
@@ -93,7 +93,10 @@ function ServiceSection() {
     <>
       <Header />
       <Navs />
-      <Hero />
+           <MiniHero
+        title="الخدمات القانونية"
+        subtitle="مكتب العدل للمحاماة والاستشارات القانونية"
+      />
       <Container className="ser_container py-5">
         <h2 data-aos="fade-down" className="text-center mb-3">
           الخدمات الكاملة لمكتب بسمة جمال

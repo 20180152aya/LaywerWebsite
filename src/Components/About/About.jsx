@@ -2,9 +2,9 @@ import { Container, Row, Col, Card } from "react-bootstrap";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import img1 from "../../assets/lauwer.jpeg.jpeg"; 
-import img2 from "../../assets/lauwer.jpeg.jpeg"; 
-import img3 from "../../assets/lauwer.jpeg.jpeg"; 
+import img1 from "../../assets/Myimage.jpeg";
+import img2 from "../../assets/Myimage.jpeg";
+import img3 from "../../assets/Myimage.jpeg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faShieldAlt,
@@ -15,8 +15,10 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import Header from "../Header/Header";
 import Navs from "../Header/Navbar";
-import Hero from "../Home/Hero";
+
 import Footer from "../Footer/Footer";
+import "./About.css";
+import MiniHero from "../MinHero/MiniHero";
 
 export default function About() {
   useEffect(() => {
@@ -51,16 +53,28 @@ export default function About() {
     <>
       <Header />
       <Navs />
-      <Hero />
+      <MiniHero
+        title="عن المكتب"
+        subtitle="مكتب العدل للمحاماة والاستشارات القانونية"
+      />
       <Container className="py-5 about-page">
         <Row className="mb-5 text-center">
           <Col data-aos="fade-down">
             <h1 className="fw-bold mb-3">من نحن</h1>
             <p className="text-muted fs-5">
               يُعد مكتب بسمة جمال للمحاماة والاستشارات القانونية واحدًا من
-              المكاتب القانونية التي تحمل على عاتقها رسالة المحاماة السامية، تلك
-              المهنة التي تُعد من أشرف المهن لدورها المحوري في تحقيق العدالة
-              وصون الحقوق.
+              المكاتب القانونية الرائدة التي تحمل على عاتقها رسالة المحاماة
+              السامية، تلك المهنة التي تُعد من أشرف المهن لدورها المحوري في
+              تحقيق العدالة وصون الحقوق.
+              <br />
+              <br />
+              يتشرف المكتب بتلقي استشاراتكم وخدماتكم في مجالات متعددة مثل
+              القضايا الجنائية، المدني والتجاري وقضايا أموال عامة، الأحوال
+              الشخصية، وتأسيس الشركات بكافة أنواعها.
+              <br />
+              <br />
+              تحت إشراف الأستاذة بسمة جمال بالاستئناف العالي ومجلس الدولة، مع
+              الالتزام الكامل بالدقة، النزاهة، وتحقيق أفضل النتائج لموكلينا.
             </p>
           </Col>
         </Row>

@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 import "./Blog.css";
 import Header from "../Header/Header";
 import Navs from "../Header/Navbar";
-import Hero from "../Home/Hero";
+import MiniHero from "../MinHero/MiniHero";
 import Footer from "../Footer/Footer";
 
 export default function Blog() {
@@ -62,7 +62,10 @@ export default function Blog() {
     <>
       <Header />
       <Navs />
-      <Hero />
+      <MiniHero
+        title="المدونة القانونية "
+        subtitle="مكتب العدل للمحاماة والاستشارات القانونية"
+      />
       <Container className="my-5">
         <h2 className="text-center mb-4 section-title" data-aos="fade-down">
           المدونة القانونية

@@ -1,0 +1,39 @@
+.mini-hero {
+  position: relative;
+  width: 100%;
+  height: 50vh; 
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mini-hero .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.35);
+  top: 0;
+  left: 0;
+}
+
+.mini-hero-content {
+  position: relative;
+  color: #fff;
+  z-index: 2;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.5);
+  padding: 0 20px;
+}
+
+@media (max-width: 576px) {
+  .mini-hero {
+    height: 180px;
+  }
+  .mini-hero-content h2 {
+    font-size: 1.5rem;
+  }
+  .mini-hero-content p {
+    font-size: 0.9rem;
+  }
+}

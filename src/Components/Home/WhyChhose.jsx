@@ -13,7 +13,7 @@ function WhyChooseUs() {
   return (
     <Container className="why-choose-us my-5">
       <h2 className="text-center mb-4" data-aos="fade-down">
-        لماذا تختار مكتب بسمة جمال؟
+        لماذا تختار مكتب العدل للمحاماه والاستشارات القانونية ⚖؟
       </h2>
 
       <p className="text-center mb-4" data-aos="fade-up" data-aos-delay="100">

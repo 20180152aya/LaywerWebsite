@@ -5,12 +5,36 @@
 .about-page h3 {
   color: #2e0000;
 }
-
+.about-page .section {
+  margin-bottom: 70px;
+}
 .about-page img {
+  width: 60%;             
+  max-width: 420px;       
+  height: 420px !important; 
   border-radius: 20px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;      
   transition: transform 0.4s ease;
+  overflow: hidden;
 }
 
 .about-page img:hover {
-  transform: scale(1.03);
+  transform: scale(1.04);
+}
+
+@media (min-width: 992px) {
+  .about-page img {
+    height: 360px;
+  }
+    .about-page .text-col {
+    padding-right: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .about-page img {
+    height: 250px;
+  }
 }
