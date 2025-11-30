@@ -72,3 +72,8 @@
   background-color: #600000 !important;
   transform: scale(1.05);
 }
+@media (max-width: 991px) {
+  .header {
+    display: none;
+  }
+}
